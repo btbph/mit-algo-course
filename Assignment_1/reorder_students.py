@@ -9,7 +9,7 @@ def reorder_students(L):
     '''
     
     h = L.head
-    for _ in range(n):
+    for _ in range(n - 1):
         h = h.next
    
     prev, cur = None, h.next
