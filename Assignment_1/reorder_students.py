@@ -12,7 +12,7 @@ def reorder_students(L):
     for _ in range(n):
         h = h.next
    
-    prev, cur = None, h
+    prev, cur = None, h.next
     while cur is not None:
         n = cur.next
         cur.next = prev
